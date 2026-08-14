@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Annu AI Brain runtime data (auto-created, machine-specific)
+annu_memory.db
+annu_tasks.db
+annu_storage/
+.annu_cache/
+screen_capture.png
+
+# OS
+.DS_Store
+Thumbs.db

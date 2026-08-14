@@ -1,0 +1,19 @@
+# ===== Zaroori (required) — inke bina app start nahi hogi =====
+python-dotenv
+google-genai       # naya official Gemini SDK (purana google-generativeai deprecated ho chuka hai)
+SpeechRecognition
+pyttsx3
+chromadb
+duckduckgo-search
+openpyxl
+Pillow
+PyAudio          # microphone access ke liye (speech_recognition ki dependency)
+
+# ===== Optional — features unlock karte hain, na ho to app phir bhi chalegi =====
+edge-tts          # behtar quality female Hindi voice (SwaraNeural)
+playsound==1.2.2  # edge-tts ki mp3 reliably play karne ke liye (file-association par depend nahi karta)
+pyautogui         # "screen dekho" / screen-vision feature
+psutil            # "system info" / battery / CPU-RAM status
+pyperclip         # clipboard read/copy commands
+pytesseract       # OCR (image se text nikaalna) — Tesseract-OCR binary bhi alag se install karo
+pywhatkit         # WhatsApp message bhejna (WhatsApp Web ke through)
